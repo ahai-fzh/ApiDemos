@@ -106,8 +106,8 @@ public class NotifyingService extends Service {
                 new Intent(this, NotifyingController.class), 0);
 
         // Set the info for the views that show in the notification panel.
-        notification.setLatestEventInfo(this, getText(R.string.status_bar_notifications_mood_title),
-                       text, contentIntent);
+//        notification.setLatestEventInfo(this, getText(R.string.status_bar_notifications_mood_title),
+//                       text, contentIntent);
 
         // Send the notification.
         // We use a layout id because it is a unique number.  We use it later to cancel.

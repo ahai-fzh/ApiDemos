@@ -110,8 +110,8 @@ public class LocalService extends Service {
                 new Intent(this, LocalServiceActivities.Controller.class), 0);
 
         // Set the info for the views that show in the notification panel.
-        notification.setLatestEventInfo(this, getText(R.string.local_service_label),
-                       text, contentIntent);
+//        notification.setLatestEventInfo(this, getText(R.string.local_service_label),
+//                       text, contentIntent);
 
         // Send the notification.
         mNM.notify(NOTIFICATION, notification);

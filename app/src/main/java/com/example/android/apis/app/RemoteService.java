@@ -192,8 +192,8 @@ public class RemoteService extends Service {
                 new Intent(this, Controller.class), 0);
 
         // Set the info for the views that show in the notification panel.
-        notification.setLatestEventInfo(this, getText(R.string.remote_service_label),
-                       text, contentIntent);
+//        notification.setLatestEventInfo(this, getText(R.string.remote_service_label),
+//                       text, contentIntent);
 
         // Send the notification.
         // We use a string id because it is a unique number.  We use it later to cancel.

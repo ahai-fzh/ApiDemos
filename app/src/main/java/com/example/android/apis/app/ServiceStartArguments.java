@@ -183,8 +183,8 @@ public class ServiceStartArguments extends Service {
                 new Intent(this, Controller.class), 0);
 
         // Set the info for the views that show in the notification panel.
-        notification.setLatestEventInfo(this, getText(R.string.service_start_arguments_label),
-                       text, contentIntent);
+//        notification.setLatestEventInfo(this, getText(R.string.service_start_arguments_label),
+//                       text, contentIntent);
 
         // We show this for as long as our service is processing a command.
         notification.flags |= Notification.FLAG_ONGOING_EVENT;

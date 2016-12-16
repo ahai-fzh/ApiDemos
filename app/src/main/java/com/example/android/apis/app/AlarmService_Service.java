@@ -108,8 +108,8 @@ public class AlarmService_Service extends Service {
                 new Intent(this, AlarmService.class), 0);
 
         // Set the info for the views that show in the notification panel.
-        notification.setLatestEventInfo(this, getText(R.string.alarm_service_label),
-                       text, contentIntent);
+//        notification.setLatestEventInfo(this, getText(R.string.alarm_service_label),
+//                       text, contentIntent);
 
         // Send the notification.
         // We use a layout id because it is a unique number.  We use it later to cancel.

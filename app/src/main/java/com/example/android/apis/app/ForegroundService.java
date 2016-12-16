@@ -175,8 +175,8 @@ public class ForegroundService extends Service {
                     new Intent(this, Controller.class), 0);
 
             // Set the info for the views that show in the notification panel.
-            notification.setLatestEventInfo(this, getText(R.string.local_service_label),
-                           text, contentIntent);
+//            notification.setLatestEventInfo(this, getText(R.string.local_service_label),
+//                           text, contentIntent);
             
             startForegroundCompat(R.string.foreground_service_started, notification);
             
