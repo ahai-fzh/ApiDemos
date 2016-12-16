@@ -63,5 +63,13 @@
         android:layout_height="wrap_content"
     />
 
+    <ViewFlipper android:id="@+id/flipper2"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:flipInterval="2000"
+                 android:layout_marginBottom="20dip" >
+
+    </ViewFlipper>
+
 </LinearLayout>
 
