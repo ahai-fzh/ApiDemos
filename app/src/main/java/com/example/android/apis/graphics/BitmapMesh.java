@@ -92,7 +92,7 @@ public class BitmapMesh extends GraphicsActivity {
                 float dx = cx - x;
                 float dy = cy - y;
                 float dd = dx*dx + dy*dy;
-                float d = FloatMath.sqrt(dd);
+                float d = dd;//FloatMath.sqrt(dd);
                 float pull = K / (dd + 0.000001f);
 
                 pull /= (d + 0.000001f);
